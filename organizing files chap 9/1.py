@@ -9,7 +9,7 @@ shutil.copy (source,destination)
 """
 import shutil , os
 # os.chdir("C:\\")
-# shutil.copy("C:\\Users\\skyjd\\PycharmProjects\\Automate_stuff\\organizing files chap 9\\test.txt","C:\\Users\\skyjd\\PycharmProjects\\Automate_stuff\\organizing files chap 9\\other_folder")
+# shutil.copy("C:\\Users\\skyjd\\PycharmProjects\\Automate_stuff\\organizing files chap 9\\04-11-1994.txt","C:\\Users\\skyjd\\PycharmProjects\\Automate_stuff\\organizing files chap 9\\other_folder")
 # shutil.copy("C:\\Users\\skyjd\\PycharmProjects\\Automate_stuff\\organizing files chap 9\\test2.txt","C:\\Users\\skyjd\\PycharmProjects\\Automate_stuff\\organizing files chap 9\\other_folder\\changing_test2_name.txt")
 #❶, the original spam.txt filename is used for the new, copied file’s filename. The second shutil.copy() call ❷ also copies the file at
 
@@ -113,5 +113,7 @@ import zipfile
 zipfile.ZIP_DEFLATED  = compression type parameter 
 """
 new_zip_file = zipfile.ZipFile("C:\\Users\\skyjd\Desktop\\newzippy.zip","w")
-new_zip_file.write("C:\\Users\\skyjd\\PycharmProjects\\Automate_stuff\organizing files chap 9\\test.txt", compress_type=zipfile.ZIP_DEFLATED)
+new_zip_file.write("C:\\Users\\skyjd\\PycharmProjects\\Automate_stuff\organizing files chap 9\\04-11-1994.txt", compress_type=zipfile.ZIP_DEFLATED)
 new_zip_file.close()
+
+

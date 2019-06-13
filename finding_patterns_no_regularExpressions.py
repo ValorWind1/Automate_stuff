@@ -41,3 +41,11 @@ for i in range (len(msg)):
     if isPhoneN(chunk):
         print("phone found :" + chunk)
 print("completed")
+
+
+"""
+So it will go through the isPhoneN function , and will get through the if/for loops. Contains a txt argument. and the message 
+will loop over the 12 indexes , including the " - " 10 numbers 2 lines. 
+
+"""
+
